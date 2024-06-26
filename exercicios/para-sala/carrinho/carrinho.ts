@@ -76,6 +76,19 @@ export class Carrinho {
 
       this.carrinhoProdutos.set(produto.nome, produtoCarrinho)
   }
+  private carrinhoProdutos: CarrinhoProdutoInterface[] 
+  display(...produtos: ProdutoInterface[]): void {
+    console.log(produtos)
+
+  }
+  
+  adicionarItem(produto: ProdutoInterface) {
+    if (produto.estaDisponivel()) {
+      
+    }
+  }
+
+
   // removerItem()
   // pegarValorTotal
 }

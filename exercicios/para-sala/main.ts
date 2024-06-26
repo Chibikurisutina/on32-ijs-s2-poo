@@ -6,7 +6,7 @@ import { ProdutoDigtal } from "./produtos/produto-digital"
 import { ProdutoVariante } from "./produtos/produto-variante"
 
 //exercicios feitos pela profa aqui
-console.log("rondando") 
+console.log("rodando"); 
 
 
 const produtoDigital = new ProdutoDigtal("Codigo Limpo", 90.88, "Abordando as complexides de um software")
@@ -25,14 +25,7 @@ const subRegataPreta = new ProdutoVariante('Regata', 110, 'modelo rock', 'preta'
  * livro
  */
 
-const carrinho = new Carrinho()
-
-carrinho.adicionarItem(produto, 1) // 100
-carrinho.adicionarItem(subRegataRosa, 10) // 220
-carrinho.adicionarItem(subRegataRosa, 10) // 220
-carrinho.adicionarItem(subRegataPreta, -1) // 110
-carrinho.adicionarItem(subRegataPreta, 20) // 110
-carrinho.adicionarItem(produtoDigital, 1) // 90.88
+const carrinho = new Carrinho ();
 
 // simula no carrinho
 carrinho.display()
