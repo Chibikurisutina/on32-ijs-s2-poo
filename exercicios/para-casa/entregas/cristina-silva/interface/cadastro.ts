@@ -6,10 +6,6 @@ export interface CadastroPessoas {
     nome: string,
     dataNascimento: Date,
     endereco: string,
-    cidade: string,
-    estado: string;
-    cep: number,
     telefone: number,
-    fonteRenda: string;
     valorRenda: number;
 }
